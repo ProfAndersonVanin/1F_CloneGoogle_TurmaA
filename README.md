@@ -7,7 +7,7 @@
 
 # ETAPAS
 
-- Criar um repositório no Github chamado: 1F_CloneGoogle_TurmaA
+- Criar um repositório no Github chamado: **1F_CloneGoogle_TurmaA**
 - Clonar o repositório e iniciar a construção
 - Tirar um print de tela da Página do Google
 - Estruturar o Html com todos os ítens
