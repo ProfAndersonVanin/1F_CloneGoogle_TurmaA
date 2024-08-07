@@ -1,14 +1,132 @@
+/* RESET DA PÁGINA */
 *{
     margin: 0;
     padding: 0;
-    
-
 }
 
+/* CONFIGURAÇÕES INICIAIS DO BODY */
 body {
-    font-size: 15px;
+    /* configuração das fontes de texto */
+    font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+
+    /* configuração do tamanho de tela */
+    width: 100vw;
+    height: 100vh;
+
+    /* orientação dos elementos na tela */
+    display: flex;
+    flex-direction: column;
+
+    /* cor do fundo */
+    background-color: #fff;
+
   }
+
+header{
+    background-color: #fff;
+    /* altura do header */
+    height: 60px;
+
+    /* fonte do texto */
+    font-size: 16px;
+
+    /* alinhamento dos ítens */
+    display: flex;
+    justify-content: flex-end; /*coloca os ítens a direita*/
+    align-items: center; /* alinhamento no centro horizontal */
+}
+
+.link{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: #1f1f1f; /*cor do texto */
+
+}
+
+.btn-cinza{
+    font-size: 13px;
+    text-decoration: none;
+    background-color: #F8F9FA;
+    padding: 8p 20px 8px 20px;
+    color: #4B4E51;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.pesquisa{
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    min-width: 50vw;
+    max-width: 75vw;
+    border-radius: 20px;
+    border: 1px solid #DCDCDC;    
+}
+
+.pesquisa:hover{
+    box-shadow: 2px 0px 5px 1px rgba(0,0,0,0.1);
+}
+
+.botao{
+    background-color: #0b57d0;
+    padding: 8px 15px 8px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* efeito hover em cima do botão */
+
+.botao:hover{
+    background-color: #1A73E8e8;
+}
+
+
+/* ajuste do tamanho do ícone */
+ion-icon{
+    font-size: 20px;
+    padding: 8px;
+    /* tempo de transição do efeito hover */
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+/* efeito hover em cima do ícone */
+ion-icon:hover{
+    background-color: #DCDCDC;
+    border-radius: 20px;
+}
+
+
+main{
+    background-color: #fff;
+    /* como o body é um elemento flex, coloca flex-grow aqui para preencher */
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column; /*organiza os ítens em colunas*/
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #f2f2f2; /*cor do fundo */
+    color: #1f1f1f; /*cor do texto */
+    /* altura do footer */
+    height: 60px;
+    border-bottom: 1px solid #DDDFE3;
+
+    /* tamanho da fonte */
+    font-size: 18px;
+
+    /* espaçamento interno à esquerda */
+    padding-left: 18px;
+
+    /* alinhamento no centro horizontal */
+    display: flex;
+    align-items: center;
+}
 
