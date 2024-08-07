@@ -5,6 +5,8 @@
 
 # link do video da aula: https://www.youtube.com/watch?v=YrSuCNEfVyI&list=PLXpJXj3bxppwHZ4ox20RIb7GwVPg2fCyS
 
+# link dos ícones: https://ionic.io/ionicons
+
 # ETAPAS
 
 - Criar um repositório no Github chamado: **1F_CloneGoogle_TurmaA**
